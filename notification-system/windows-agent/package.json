@@ -1,0 +1,17 @@
+{
+  "name": "windows-notification-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Windows desktop agent for cloud-triggered BurntToast notifications",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node agent.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "socket.io-client": "^4.8.1"
+  }
+}
